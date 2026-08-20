@@ -25,7 +25,7 @@ echo -e "$GREEN [+] Maven build completed successfully!$NC\n"
 
 
 echo -e "$BLUE [*] Create the binary distribution for this build...$NC"
-if ! mvn -f storm-dist/binary/pom.xml package; then
+if ! mvn -f storm-dist/binary/pom.xml clean package; then
     echo -e "$RED [-] Failed to create package.$NC"
     exit 1
 fi
