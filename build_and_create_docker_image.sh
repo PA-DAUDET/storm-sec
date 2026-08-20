@@ -2,7 +2,7 @@
 
 # VAR
 
-VERSION="3.0.1-SNAPSHOT"
+VERSION="3.0.1-LOCAL"
 DOCKER_FILE="Dockerfile"
 IMAGE_NAME="storm-dev:local"
 
